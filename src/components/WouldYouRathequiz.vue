@@ -6,13 +6,13 @@
 
     <div>
 
-    <input type="radio" :id="question.id + '-answer1'" :value="question.Answer1" v-model="selectedAnswer">
-    <label :for="question.id + '-answer1'">{{question.Answer1}}</label>
+    <input type="radio" :id="question.id + 'answer1'" :value="question.Answer1" v-model="selectedAnswer">
+    <label :for="question.id + 'answer1'">{{question.Answer1}}</label>
     </div>
 
     <div>
-    <input type="radio" :id="question.id + '-answer2' " :value="question.Answer2" v-model="selectedAnswer">
-    <label :for="question.id + '-answer2'">{{question.Answer2}}</label>
+    <input type="radio" :id="question.id + 'answer2' " :value="question.Answer2" v-model="selectedAnswer">
+    <label :for="question.id + 'answer2'">{{question.Answer2}}</label>
     </div>
 
 
